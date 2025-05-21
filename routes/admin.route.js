@@ -1,5 +1,5 @@
 import express from "express";
-import { verifyToken } from "../middleware/auth.js";
+import { verifyToken } from "../middleware/user.middleware.js";
 import { addChatBot } from "../controllers/admin.controller.js";
 import upload from "../middleware/multer.js";
 
